@@ -144,7 +144,7 @@ $(function() {
   navbarFixed();
   if ($('.blog-slider').length) {
     $('.blog-slider').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 30,
         items: 1,
         nav: true,
